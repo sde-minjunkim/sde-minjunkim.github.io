@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelector(".site-nav-toggle"),t=document.getElementById("site-nav");!e||!t||e.addEventListener("click",()=>{let n=t.classList.toggle("is-open");e.setAttribute("aria-expanded",n?"true":"false"),t.hidden=!n})});})();
